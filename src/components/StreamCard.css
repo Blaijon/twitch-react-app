@@ -1,0 +1,35 @@
+.stream-card {
+  flex: 1 0 auto;
+  max-width: 50%;
+  width: 19rem;
+  overflow: hidden;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.stream-card h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+.channel-logo {
+  width: 40px;
+  align-self: baseline;
+}
+.streamcard-block {
+  display: flex;
+  margin-top: 0.2rem;
+}
+.streamcard-text {
+  margin-left: 5px;
+  overflow: hidden;
+}
+.streamcard-text p {
+  margin: 0.3rem 0;
+}
+@media (max-width: 550px) {
+  .stream-card {
+    max-width: 100%;
+    padding: 0;
+  }
+}

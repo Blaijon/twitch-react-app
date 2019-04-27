@@ -1,0 +1,45 @@
+.logo {
+  font-family: "Major Mono Display", monospace;
+  padding-bottom: 2rem;
+}
+.sidebar {
+  width: 15vw;
+  height: 100%;
+  background: #1e1f26;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.sidebar-links {
+  list-style: none;
+  padding: 0;
+  color: #c5c8d4;
+}
+.sidebar-links li {
+  padding: 15px;
+}
+.sidebar-links .active {
+  color: white;
+}
+.sidebar-links a:hover {
+  color: #b9c1b6;
+}
+.stream-btn {
+  padding: 12px 19px;
+  cursor: not-allowed;
+}
+
+@media (max-width: 979px) {
+  .sidebar {
+    width: 4rem;
+  }
+  .sidebar .sidebar-text {
+    display: none;
+  }
+  .stream-btn {
+    display: none;
+  }
+}
