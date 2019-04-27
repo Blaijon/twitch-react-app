@@ -19,7 +19,7 @@ class Sidebar extends Component {
   render() {
     return (
       <nav className="sidebar">
-        <h1 className="logo">tra</h1>
+        <h1 className="logo">BLA</h1>
         <button className="btn stream-btn">● Start Stream </button>
         <ul className="sidebar-links">
           <li>
@@ -43,7 +43,7 @@ class Sidebar extends Component {
           <li>
             <a
               target="_blank"
-              href="https://github.com/zksmith/twitch-react-app"
+              href="https://github.com/Blaijon/twitch-react-app"
               rel="noopener noreferrer"
             >
               <i className="fab fa-github" />{" "}

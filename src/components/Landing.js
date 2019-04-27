@@ -7,7 +7,6 @@ import Loading from "./Loading.js";
 class Landing extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       loading: true,
       currentStream: "",
